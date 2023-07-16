@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.marketplace.MainFragment"
+        android:label="Main Fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_farmersFragment"
+            app:destination="@id/farmersFragment" />
+        <!-- Add other actions and destinations as needed -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/farmersFragment"
+        android:name="com.example.marketplace.FarmersFragment"
+        android:label="Farmers Fragment">
+        <!-- Add other actions and destinations as needed -->
+    </fragment>
+
+    <!-- Add other fragments as needed -->
+
+</navigation>

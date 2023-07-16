@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635040235695",
+    "project_id": "cropexchange-bfcf6",
+    "storage_bucket": "cropexchange-bfcf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635040235695:android:587bacdc21c3f05a5c945a",
+        "android_client_info": {
+          "package_name": "com.pnj.cropexchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635040235695-mllckbdn3bv2aqu0dgc7mc1c3ov7in85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmd7OrnBDZkm8TUd2cOHlqpLzBXRptxUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635040235695-mllckbdn3bv2aqu0dgc7mc1c3ov7in85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
