@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_register_graph"
+    app:startDestination="@id/registerFrag">
+
+    <fragment
+        android:id="@+id/registerFrag"
+        android:name="com.pnj.cropexchange.SignInUp.RegisterFrag"
+        android:label="activity_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFrag_to_loginFrag"
+            app:destination="@id/loginFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFrag"
+        android:name="com.pnj.cropexchange.SignInUp.LoginFrag"
+        android:label="activity_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFrag_to_registerFrag"
+            app:destination="@id/registerFrag" />
+    </fragment>
+</navigation>

@@ -1,7 +1,12 @@
 package com.pnj.cropexchange.user
 
+import java.util.UUID
+
 data class User(
-    val userId: String,
-    val email: String,
-    val password: String // Note: Password should be hashed and securely stored
-)
+    val name: String = "",
+    val email: String = "",
+    val password: String = "",
+    var imagePath: String= ""
+){
+    constructor(): this("","","","")
+}

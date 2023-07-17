@@ -1,0 +1,27 @@
+<!-- item_product.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Product Name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/productPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="Price"
+        android:textColor="@android:color/black" />
+
+    <!-- Add more views as needed for displaying product details -->
+
+</LinearLayout>
