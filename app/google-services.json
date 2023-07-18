@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789194171218",
+    "project_id": "kleine-ee094",
+    "storage_bucket": "kleine-ee094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789194171218:android:43b4ecb0693bf386a1508b",
+        "android_client_info": {
+          "package_name": "com.example.kleine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789194171218-vi7r6gpkpai0uid17qju0poha5f3713b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvM7JDVUIBuMbiOS3-cMU7kljgpQqku4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789194171218-vi7r6gpkpai0uid17qju0poha5f3713b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
